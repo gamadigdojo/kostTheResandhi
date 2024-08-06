@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" >
+    <script src="https://kit.fontawesome.com/8258775b27.js" crossorigin="anonymous"></script>
+    <style>
+        .animated-section {
+    opacity: 0;
+    transform: translateX(-15px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+
+}
+    </style>
+</head>
+
+
+<body class="scroll-smooth">
+
+    <div class="wa-sticky">
+        <a href="https://api.whatsapp.com/send?phone=6282279094694&text=Halo,%20saya%20ingin%20bertanya%20terkait%20Kost%20Putri%20The%20Resandhi" class=" wa-button bg-third fixed right-3 bottom-3 md:right-6 md:bottom-6 z-40 md:w-14 h-10 w-10 md:h-14 rounded-full flex items-center justify-center hover:bg-main">
+            <i class="fa-brands fa-whatsapp text-white text-lg md:text-2xl"></i>
+        </a>
+      </div>
+      
+
+
+    <nav class="bg-white border-second border-b-[1px] w-full" style="position: fixed; z-index: 40;">
+        <div class="w-full bg-main text-white flex justify-center items-center p-2  text-xs md:text-sm gap-2"><i class="fa-solid fa-location-dot text-sm"></i> <p>Jalan Raya Lapas Gang Perwira 2 no 7, Way Huwi, Lampung Selatan <a href="https://maps.app.goo.gl/Mp87msXEidPoYMZP6">( <span class="underline">Buka di Google Maps</span>)</a></p></div>
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+            <a href="#hero" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./assets/logo-kost.png" class="h-12 md:h-20" alt="Logo" />
+            </a>
+            <button id="mobile-menu-button" type="button" class="inline-flex items-center p-2 w-8 h-8 justify-center text-sm text-white bg-third rounded-lg md:hidden hover:bg-main focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="#hero" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#fasilitas" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Fasilitas</a>
+                    </li>
+                    <li>
+                        <a href="#video" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Video</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="pt-28 md:pt-40">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+            <a href="#fasilitas" class="animated-section inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-white bg-third rounded-full  hover:bg-main" role="alert">
+                <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">Baru</span> <span class="text-sm text-left font-medium">Ada kamar tersedia! Lihat disini</span> 
+                <svg class=" ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+            </a>
+            <h1 class="animated-section mb-4 text-4xl font-extrabold tracking-tight leading-none text-main md:text-5xl lg:text-6xl ">Kost Putri Seperti di Rumah Sendiri</h1>
+            <p class="animated-section mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48">Kost Putri by <span class="font-semibold text-third">The Resandhi</span> menawarkan suasana <span class="font-semibold text-third">nyaman</span> dan <span class="font-semibold text-third">aman</span> dengan <span class="font-semibold text-third">fasilitas premium</span> sekaligus lingkungan yang mendukung <span class="font-semibold text-third">produktivitas</span> serta <span class="font-semibold text-third">kenyamanan</span> namun dengan <span class="font-semibold text-third">harga</span> yang <span class="font-semibold text-third">terjangkau</span>.</p>
+            <div class="flex animated-section flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="#fasilitas" class="animated-section inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-third hover:bg-main focus:ring-4 focus:ring-primary-300 ">
+                    Lihat Kamar
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+                <a href="#video" class="inline-flex animated-section  justify-center items-center py-3 px-5 text-base font-medium text-center text-main rounded-lg border border-gray-300 hover:bg-third  hover:text-white focus:ring-4 focus:ring-gray-100 ">
+                    <svg class="mr-2 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
+                    Video Review
+                </a>  
+            </div>
+            <div class="px-4 mx-auto text-center animated-section  md:max-w-screen-md lg:max-w-screen-lg">
+                <span class="font-semibold text-gray-400 uppercase">Keungulan Kami</span>
+                <div class="w-full grid grid-cols-2 gap-6 md:grid-cols-4 justify-center text-base md:text-xl items-center mt-8 text-gray-500">
+                    <h1 class="hover:text-third "><i class="fa-solid fa-money-bills"></i> Harga Terjangkau</h1>
+                    <h1 class="hover:text-third "><i class="fa-solid fa-house-signal"></i> Fasilitas Eksklusif</h1>
+                    <h1 class="hover:text-third "><i class="fa-solid fa-route"></i> Lokasi Strategis</h1>
+                    <h1 class="hover:text-third "><i class="fa-solid fa-wifi"></i> Internet (Wifi)</h1>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section id="fasilitas" class="flex flex-col items-center md:flex-row py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 gap-4 bg-third "style="border-radius: 20px">
+        <div class="w-full md:w-2/4 animated-section text-white">
+            <h1 class="mb-4 text-2xl font-bold leading-none text-white md:text-4xl lg:text-4xl xl:text-4xl text-center md:text-left">Pilihan Tepat untuk Mahasiswi, Dosen, dan Tenaga Kerja</h1>
+            <div class=" h-0.5 bg-white my-2"></div>
+            <p class="  text-left text-base mb-4">Terletak strategis, dekat Universitas Itera dan pusat kota Bandar Lampung, Kost Putri by The Resandhi menawarkan akses nyaman bagi mahasiswi, dosen, dan tenaga kerja. Nikmati fasilitas terbaik kami yang dirancang untuk menunjang kenyamanan dan produktivitas Anda. </p>
+            <ul class=" text-left list-decimal space-y-2 list-inside text-base">
+                <p class="font-bold">Fasilitas Terbaik yang dapat anda dapatkan:</p>
+                <li>800 m dari universitas Itera Lampung</li>
+                <li>Air Conditioner (AC)</li>
+                <li>Internet Gratis (Wifi)</li>
+                <li>Dekat dengan pusat jajanan & laundry</li>
+                <li>Meja belajar & lemari pribadi</li>
+                <li>Kamar mandi dalam Kamar (Shower & Toilet)</li>
+                <li>Lobby & Dapur Umum</li>
+                <li>Penjaga kos (keamanan)</li>
+                <li>Parkir motor</li>
+                <li>Masih banyak lagi</li>
+            </ul>
+
+            <a href="https://api.whatsapp.com/send?phone=6282279094694&text=Halo,%20saya%20ingin%20bertanya%20terkait%20Kost%20Putri%20The%20Resandhi" class="flex gap-2 justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-white hover:text-third focus:ring-4 focus:ring-primary-300 w-full" style="margin-top: 1rem;">
+                Hubungi Kami
+                <i class="fa-brands fa-whatsapp" style="font-size: 20px;"></i>
+            </a>
+        </div>
+        <div class="w-full md:w-2/4 grid gap-4 animated-section ">
+            <div>
+                <img id="preview" class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+            </div>
+            <div class="grid grid-cols-5 gap-4">
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="" id="video">
+        <div class="gap-8 items-center justify-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <div class="rounded-lg animated-section" >
+                <iframe width="100%" class="h-[200px] md:h-[300px] rounded-lg"  src="https://www.youtube-nocookie.com/embed/LFOx-vmYrts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-third animated-section">Temukan Kenyamanan di Kost Putri by The Resandhi</h2>
+                <p class="mb-4 text-gray-500 text-lg dark:text-gray-400 animated-section">Apakah Anda mencari <span class="font-semibold text-third">tempat tinggal</span> yang <span class="font-semibold text-third">nyaman</span> dan <span class="font-semibold text-third">strategis</span> di <span class="font-semibold text-third">Bandar Lampung</span>? Kost Putri by <span class="font-semibold text-third">The Resandhi</span> adalah solusi sempurna <span class="font-semibold text-third">untuk mahasiswi</span>, <span class="font-semibold text-third">dosen</span>, dan <span class="font-semibold text-third">tenaga kerja</span> yang aktif dan membutuhkan lokasi yang praktis.</p>
+                <a href="https://api.whatsapp.com/send?phone=6282279094694&text=Halo,%20saya%20ingin%20bertanya%20terkait%20Kost%20Putri%20The%20Resandhi" class="inline-flex animated-section items-center text-white bg-third hover:bg-main focus:ring-4 focus:ring-primary-300 rounded-lg text-base font-medium  px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                    Pesan Kamar Sekarang
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimoni" class="mb-12">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6 bg-third" style="border-radius: 20px">
+            <figure class="max-w-screen-md mx-auto">
+                <svg class="animated-section h-12 mx-auto mb-3 text-white" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
+                </svg> 
+                <blockquote>
+                    <p class="text-base md:text-xl font-medium text-white animated-section">Keamanan dan kenyamanan kalian selalu menjadi prioritas saya. Jika ada yang kalian butuhkan atau ada masalah, jangan ragu menghubungi saya. Kost ini adalah tempat di mana kalian bisa merasa seperti di rumah sendiri</p>
+                </blockquote>
+                <figcaption class="flex items-center justify-center mt-6 space-x-1 md:space-x-3 animated-section">
+                    <img class="w-16 h-16 rounded-full" src="./assets/a1.jpeg" alt="profile picture">
+                    <div class="flex items-center divide-x-2 divide-gray-500 ">
+                        <div class="pr-3 font-medium text-white ">Yuliar A. Dewi</div>
+                        <div class="pl-3 text-sm font-light text-white">Pengelola Kost The Resandhi</div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+      </section>
+
+
+
+
+
+      <footer class="bg-main">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <span class="self-center text-xl font-semibold whitespace-nowrap text-white">Kost Putri by The Resandhi</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#hero" class="hover:underline hover:text-white me-4 md:me-6">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#fasilitas" class="hover:underline hover:text-white me-4 md:me-6">Fasilitas</a>
+                    </li>
+                    <li>
+                        <a href="#video" class="hover:underline hover:text-white me-4 md:me-6">Video</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline hover:text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© since 2024 <a href="https://flowbite.com/" class="hover:underline">RCP™</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+        <a href="https://webcreativs.com/" target="_blank" rel="noreferrer noopener">
+            <div class="bg-[linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1))] py-2">
+                <p class="paragraph text-center font-medium text-black text-sm md:text-base">
+                    Website ini dibuat oleh <span class="text-[#344F34] font-bold underline">WebCreativs</span>
+                </p>
+            </div>
+        </a>
+    
+
+
+    <script>
+        function handleFadeIn(entries, observer) {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = 'translateX(0)';
+            } else {
+                // Reset the animation when the element is not in the viewport
+                entry.target.style.opacity = 0;
+                entry.target.style.transform = 'translateX(-10px)';
+            }
+        });
+    }
+
+    const containers = document.querySelectorAll('.animated-section');
+
+    const observer = new IntersectionObserver(handleFadeIn, {
+        root: null
+        , rootMargin: '0px'
+        , threshold: 0.5
+    , });
+
+    containers.forEach((container) => {
+        observer.observe(container);
+    });
+        const preview = document.getElementById('preview');
+        const thumbnails = document.querySelectorAll('.thumbnail');
+
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', (e) => {
+                preview.src = e.target.src;
+            });
+        });
+        
+        document.getElementById('mobile-menu-button').onclick = function () {
+            var menu = document.getElementById('navbar-default');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+            
+            var menuLinks = document.querySelectorAll('#navbar-default a');
+            menuLinks.forEach(function(link) {
+                link.onclick = function () {
+                    var menu = document.getElementById('navbar-default');
+                    setTimeout(function() {
+                        if (!menu.classList.contains('hidden')) {
+                            menu.classList.add('hidden');
+                        }
+                    }, 100); 
+                };
+            });
+        };
+    </script>
+</body>
+</html>
