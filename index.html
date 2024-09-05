@@ -12,8 +12,10 @@
     opacity: 0;
     transform: translateX(-15px);
     transition: opacity 1s ease-out, transform 1s ease-out;
-
-}
+    }
+    *{
+        scroll-behavior: smooth;
+    }
     </style>
 </head>
 
@@ -48,37 +50,34 @@
                     <li>
                         <a href="#fasilitas" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Fasilitas</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#video" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Video</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Pricing</a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                         <a href="#" class="block py-2 px-3 text-gray-900 hover:text-white rounded hover:bg-third md:hover:bg-transparent md:border-0 md:hover:text-third md:p-0">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="hero" class="pt-28 md:pt-40">
+    <section id="hero" class="pt-28 md:pt-40" style="background-image: sr;">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
             <a href="#fasilitas" class="animated-section inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-white bg-third rounded-full  hover:bg-main" role="alert">
-                <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">Baru</span> <span class="text-sm text-left font-medium">Ada kamar tersedia! Lihat disini</span> 
+                <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">Baru</span> <span class="text-sm text-left font-medium">Segera Hadir!</span> 
                 <svg class=" ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
             </a>
             <h1 class="animated-section mb-4 text-4xl font-extrabold tracking-tight leading-none text-main md:text-5xl lg:text-6xl ">Kost Putri Seperti di Rumah Sendiri</h1>
             <p class="animated-section mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48">Kost Putri by <span class="font-semibold text-third">The Resandhi</span> menawarkan suasana <span class="font-semibold text-third">nyaman</span> dan <span class="font-semibold text-third">aman</span> dengan <span class="font-semibold text-third">fasilitas premium</span> sekaligus lingkungan yang mendukung <span class="font-semibold text-third">produktivitas</span> serta <span class="font-semibold text-third">kenyamanan</span> namun dengan <span class="font-semibold text-third">harga</span> yang <span class="font-semibold text-third">terjangkau</span>.</p>
             <div class="flex animated-section flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                 <a href="#fasilitas" class="animated-section inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-third hover:bg-main focus:ring-4 focus:ring-primary-300 ">
-                    Lihat Kamar
+                    Lihat Fasilitas
                     <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
-                <a href="#video" class="inline-flex animated-section  justify-center items-center py-3 px-5 text-base font-medium text-center text-main rounded-lg border border-gray-300 hover:bg-third  hover:text-white focus:ring-4 focus:ring-gray-100 ">
+                <!-- <a href="#video" class="inline-flex animated-section  justify-center items-center py-3 px-5 text-base font-medium text-center text-main rounded-lg border border-gray-300 hover:bg-third  hover:text-white focus:ring-4 focus:ring-gray-100 ">
                     <svg class="mr-2 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
                     Video Review
-                </a>  
+                </a>   -->
             </div>
             <div class="px-4 mx-auto text-center animated-section  md:max-w-screen-md lg:max-w-screen-lg">
                 <span class="font-semibold text-gray-400 uppercase">Keungulan Kami</span>
@@ -92,7 +91,7 @@
         </div>
     </section>
 
-    <section id="fasilitas" class="flex flex-col items-center md:flex-row py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 gap-4 bg-third "style="border-radius: 20px">
+    <section id="fasilitas" class="flex flex-col items-center md:flex-row py-8 mb-12 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 gap-4 bg-third "style="border-radius: 20px">
         <div class="w-full md:w-2/4 animated-section text-white">
             <h1 class="mb-4 text-2xl font-bold leading-none text-white md:text-4xl lg:text-4xl xl:text-4xl text-center md:text-left">Pilihan Tepat untuk Mahasiswi, Dosen, dan Tenaga Kerja</h1>
             <div class=" h-0.5 bg-white my-2"></div>
@@ -118,10 +117,25 @@
         </div>
         <div class="w-full md:w-2/4 grid gap-4 animated-section ">
             <div>
-                <img id="preview" class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+                <img id="preview" class="max-h-full rounded-lg" src="./assets/potokost.jpg" alt="">
             </div>
             <div class="grid grid-cols-5 gap-4">
                 <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg cursor-pointer" src="./assets/potokost.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg cursor-pointer" src="./assets/potokost2.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg cursor-pointer" src="./assets/potokost3.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg cursor-pointer" src="./assets/potokost.jpg" alt="">
+                </div>
+                <div>
+                    <img class="thumbnail h-auto max-w-full rounded-lg cursor-pointer" src="./assets/potokost2.jpg" alt="">
+                </div>
+                <!-- <div>
                     <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
                 </div>
                 <div>
@@ -135,27 +149,12 @@
                 </div>
                 <div>
                     <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
-                </div>
-                <div>
-                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
-                </div>
-                <div>
-                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
-                </div>
-                <div>
-                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
-                </div>
-                <div>
-                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
-                </div>
-                <div>
-                    <img class="thumbnail h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
-    <section class="" id="video">
+    <!-- <section class="" id="video">
         <div class="gap-8 items-center justify-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
             <div class="rounded-lg animated-section" >
                 <iframe width="100%" class="h-[200px] md:h-[300px] rounded-lg"  src="https://www.youtube-nocookie.com/embed/LFOx-vmYrts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -169,8 +168,8 @@
                 </a>
             </div>
         </div>
-    </section>
-
+    </section> -->
+<!-- 
     <section id="testimoni" class="mb-12">
         <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6 bg-third" style="border-radius: 20px">
             <figure class="max-w-screen-md mx-auto">
@@ -189,7 +188,7 @@
                 </figcaption>
             </figure>
         </div>
-      </section>
+      </section> -->
 
 
 
@@ -210,9 +209,6 @@
                     </li>
                     <li>
                         <a href="#video" class="hover:underline hover:text-white me-4 md:me-6">Video</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline hover:text-white">Contact</a>
                     </li>
                 </ul>
             </div>
